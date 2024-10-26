@@ -1,0 +1,287 @@
+
+@media (min-width: 1200px){
+    .menu-mobile{
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header__nav{
+        display: none;
+    }
+
+    .navbar__mobile-btn{
+        display: block;
+    }
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 1200px) {
+  .layout {
+    min-width: auto;
+  }
+
+  .services__grid,
+  .choose-us__container,
+  .reviews__container,
+  .footer__container,
+  .layout__about-us,
+  .values__list,
+  .service-details__columns,
+  .process__steps,
+  .contact__flex,
+  .layout__service-info,
+  .layout__map {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Medium screens (up to 992px) */
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 56.25%; /* 9px */
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .navbar__mobile-btn {
+    display: block;
+  }
+
+  .services__service {
+    flex-basis: calc(50% - 2rem);
+  }
+
+  .banner__content {
+    width: 100%;
+  }
+
+  .service__container-img {
+    height: 20rem; /* Reducir la altura de la imagen */
+  }
+
+  .value-item {
+    flex-basis: calc(50% - 1.5rem); /* Cambiar a dos columnas */
+  }
+
+  .service-details__columns {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .service-details__info {
+    flex-basis: calc(50% - 1rem);
+    margin-bottom: 2rem;
+  }
+
+  .service-details__img{
+    height: auto;
+  }
+
+  .process__steps {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .process__step {
+    flex-basis: calc(50% - 1.5rem);
+    max-width: calc(50% - 1.5rem);
+  }
+
+  .contact__flex {
+    flex-direction: column;
+  }
+
+  .layout__other-information {
+    margin-top: 3rem;
+  }
+
+  /* Ajustes para el footer */
+  .footer__container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+  .footer__logo{
+    max-width: 200px;
+  }
+
+  .footer__column {
+    flex-basis: calc(33% - 2rem);
+    margin-bottom: 2rem;
+  }
+
+  .footer__column:nth-child(1){
+    display: none;
+  }
+
+  /* Ajustes servicio Asesoria */
+
+  .service-info__offer,
+  .service-info__reasons,
+  .about-us__info{
+    flex-wrap: nowrap;
+    gap: 3rem;
+  }
+
+  .process__item{
+    padding-left: 8.5rem;
+  }
+
+  .layout__process{
+    padding: 0;
+  }
+  
+  /* Ajustes otros servicios */
+
+  .benefit__item{
+    flex-basis: calc(50% - 1.2rem);
+  }
+
+
+}
+
+/* Small screens (up to 768px) */
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 50%; /* 8px */
+  }
+
+  .layout__banner {
+    padding: 10rem 5rem;
+  }
+
+  .banner__title {
+    font-size: 6rem;
+  }
+
+  .banner__description{
+    display: none;
+  }
+
+  .services__service,
+  .reviews__container {
+    flex-basis: 100%;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__column {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer__social{
+    justify-content: center;
+  }
+
+  .footer__column:nth-child(3){
+    display: none;
+  }
+
+  .choose-us__reasons,
+  .reviews__flex{
+    flex-direction: column;
+  }
+
+  .benefit__item {
+    flex-basis: 100%;
+  }
+
+  .about-us__info{
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+
+  .layout__values{
+    margin-top: 3rem;
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr;
+    gap: 0;
+    row-gap: 2rem;
+  }
+
+  .contact-form__group {
+    grid-column: 1/2;
+    
+  }
+
+  .value-item {
+    flex-basis: 100%; /* Volver a una columna */
+  }
+
+  .process__step,
+  .service-details__info {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .about-us-info__container-image{
+    display: none;
+  }
+
+  .about-us-info__container-image--movil{
+    display: block;
+  }
+
+
+}
+
+/* Extra small screens (up to 576px) */
+@media screen and (max-width: 576px) {
+  .layout__banner {
+    padding: 8rem 3rem;
+  }
+
+  .banner__title {
+    font-size: 5rem;
+  }
+
+  .header__img {
+    width: 200px;
+  }
+
+  .service-info__offer,
+  .service-info__reasons {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .service-info__reasons{
+    flex-direction: column-reverse ;
+  }
+
+  .offer__img,
+  .service-reasons__img {
+    max-width: 100%;
+  }
+
+  .process__item {
+    flex-basis: 100%;
+  }
+
+  .menu-mobile {
+    width: 100%;
+  }
+
+}
+
+/* Adjustments for the mobile menu */
+@media screen and (min-width: 993px) {
+  .menu-mobile {
+    display: none !important;
+  }
+}
+  

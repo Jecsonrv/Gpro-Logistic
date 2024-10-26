@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome-free-6.6.0-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/fonts/DM_Sans/dmsans.css" />
+
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <link rel="icon" href="assets/img/logo.png" />
+
+    <script src="assets/js/form.js" defer></script>
+    <script src="assets/js/menu-mobile.js" defer></script>
+    <script src="assets/js/navbar-fixed.js" defer></script>
+
+    <title>Gpro Logistic</title>
+  </head>
+  <body>
+    <div class="menu-mobile">
+      <header class="menu-mobile__header">
+        <div class="menu-mobile__container-logo">
+          <a href="index.html" class="menu-mobile__link-logo">
+            <img
+              src="assets/img/logo2.png"
+              alt="Logo de la empresa"
+              class="menu-mobile__logo"
+            />
+          </a>
+        </div>
+
+        <button class="menu-mobile__close">
+          <i class="menu-mobile__icon-close fa-solid fa-xmark"></i>
+        </button>
+      </header>
+
+      <div class="menu-mobile__body">
+        <nav class="menu-mobile__nav">
+          <ul class="menu-mobile__list">
+            <li class="menu-mobile__item">
+              <a href="index.html" class="menu-mobile__link">Inicio</a>
+            </li>
+            <li class="menu-mobile__item">
+              <a href="#services" class="menu-mobile__link"
+                >Servicios
+                <i class="fa-solid fa-chevron-down menu-mobile__icon-small"></i>
+              </a>
+
+              <ul class="menu-mobile__submenu-mobile">
+                <li class="submenu-mobile__item">
+                  <a href="gestion-aduanal.html" class="submenu-mobile__link"
+                    >Asesoría y Gestión Aduanal</a
+                  >
+                </li>
+
+                <li class="submenu-mobile__item">
+                  <a href="transporte.html" class="submenu-mobile__link"
+                    >Transporte Terrestre</a
+                  >
+                </li>
+
+                <li class="submenu-mobile__item">
+                  <a
+                    href="coordinacion-transporte.html"
+                    class="submenu-mobile__link"
+                    >Coordinación logística de carga</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="menu-mobile__item">
+              <a href="nosotros.html" class="menu-mobile__link"
+                >Sobre nosotros</a
+              >
+            </li>
+            <li class="menu-mobile__item menu-mobile__item--contact">
+              <a href="contacto.html" class="menu-mobile__title--contact"
+                >Contactar</a
+              >
+            </li>
+          </ul>
+          <div class="menu-mobile__social">
+            <div class="social-mobile__item">
+              <a
+                href="https://wa.me/50377948250"
+                class="social-mobile__link social__link--whatsapp"
+                target="_blank"
+              >
+                <i class="fa-brands fa-whatsapp nav-mobile__icon"></i>
+              </a>
+            </div>
+            <div class="social-mobile__item">
+              <a
+                href="mailto:glenda.canas@gprologistic.com?subject=Cotización%20o%20dudas%20acerca%20de%20los%20servicios"
+                class="social-mobile__link social__link--gmail"
+                target="_blank"
+              >
+                <i class="fa-solid fa-envelope nav-mobile__icon"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="layout">
+      <header class="layout__header" id="inicio">
+        <div class="header__container">
+          <div class="header__logo">
+            <a href="index.html" class="header__logo-link">
+              <img src="assets/img/logo2.png" class="header__img" alt="Logo" />
+            </a>
+          </div>
+
+          <!-- BOTON RESPONSIVE -->
+          <div class="navbar__mobile-btn">
+            <button class="mobile-btn__wrap">
+              <span class="mobile-btn__line"></span>
+              <span class="mobile-btn__line"></span>
+              <span class="mobile-btn__line"></span>
+            </button>
+          </div>
+
+          <nav class="header__nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="index.html" class="nav__title">Inicio</a>
+              </li>
+              <li class="nav__item">
+                <a href="index.html#services" class="nav__title"
+                  >Servicios
+                  <i class="fa-solid fa-chevron-down nav__icon-small"></i>
+                </a>
+                <ul class="nav__submenu">
+                  <li class="submenu__item">
+                    <a href="gestion-aduanal.html" class="submenu__title"
+                      >Asesoría y Gestión Aduanal</a
+                    >
+                  </li>
+
+                  <li class="submenu__item">
+                    <a href="transporte.html" class="submenu__title"
+                      >Transporte Terrestre</a
+                    >
+                  </li>
+
+                  <li class="submenu__item">
+                    <a
+                      href="coordinacion-transporte.html"
+                      class="submenu__title"
+                      >Coordinación logística de carga</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <a href="nosotros.html" class="nav__title">Sobre nosotros</a>
+              </li>
+              <li class="nav__item nav__item--contact">
+                <a href="contacto.html" class="nav__title--contact"
+                  >Contactar</a
+                >
+              </li>
+            </ul>
+            <div class="nav__social">
+              <div class="social__item">
+                <a
+                  href="https://wa.me/50377948250"
+                  class="social__link social__link--whatsapp"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-whatsapp nav__icon"></i>
+                </a>
+              </div>
+              <div class="social__item">
+                <a
+                  href="mailto:glenda.canas@gprologistic.com?subject=Cotización%20o%20dudas%20acerca%20de%20los%20servicios"
+                  class="social-mobile__link social__link--gmail"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-envelope nav__icon"></i>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main class="layout__main">
+        <h1 class="contact__title">Comunicate con nosotros</h1>
+        <div class="contact__flex">
+          <section class="layout__contact-form">
+            <div class="contact-form__container">
+              <header class="contact-form__header">
+                <h2 class="contact-form__title">Formulario de Contacto</h2>
+                <p class="contact-form__description">
+                  Por favor, completa tus datos y nos pondremos en contacto
+                  contigo lo antes posible.
+                </p>
+              </header>
+
+              <form
+                action="https://formspree.io/f/xjkbnedv"
+                method="POST"
+                class="contact-form"
+              >
+                <div class="contact-form__group">
+                  <label for="nombre" class="contact-form__label">Nombre</label>
+                  <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    required
+                    class="contact-form__input"
+                  />
+                </div>
+
+                <div class="contact-form__group">
+                  <label for="apellido" class="contact-form__label"
+                    >Apellido</label
+                  >
+                  <input
+                    type="text"
+                    id="apellido"
+                    name="apellido"
+                    required
+                    class="contact-form__input"
+                  />
+                </div>
+
+                <div class="contact-form__group">
+                  <label for="email" class="contact-form__label"
+                    >Correo Electrónico</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="_replyto"
+                    required
+                    class="contact-form__input"
+                  />
+                </div>
+
+                <div class="contact-form__group">
+                  <label for="telefono" class="contact-form__label"
+                    >Teléfono</label
+                  >
+                  <input
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    required
+                    class="contact-form__input"
+                  />
+                </div>
+
+                <div class="contact-form__group">
+                  <label for="mensaje" class="contact-form__label"
+                    >¿Cómo podemos ayudarte?</label
+                  >
+                  <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    required
+                    class="contact-form__input"
+                  ></textarea>
+                </div>
+
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="Nuevo mensaje de contacto"
+                />
+                <button type="submit" class="contact-form__btn">
+                  Enviar Mensaje
+                </button>
+              </form>
+            </div>
+          </section>
+
+          <section class="layout__other-information">
+            <header class="other-information__header">
+              <h2 class="other-information__title">Detalles de contacto</h2>
+            </header>
+            <ul class="other-information__list">
+              <li class="other-information__item">
+                <h4 class="other-information__item-title">Dirección</h4>
+                <p class="other-information__item-text">
+                  Psj. Carbonel, Col. Roma No. 23, San Salvador
+                </p>
+              </li>
+              <li class="other-information__item">
+                <h4 class="other-information__item-title">Teléfono</h4>
+                <div class="other-information__item--flex">
+                  <a href="tel:+50377948250">
+                    <p
+                      class="other-information__item-text other-information__item--link"
+                    >
+                      +503 7794-8250
+                    </p></a
+                  >
+                  <a href="tel:+50377948250">
+                    <p
+                      class="other-information__item-text other-information__item--link"
+                    >
+                      +503 2250-8875
+                    </p></a
+                  >
+                </div>
+              </li>
+              <li class="other-information__item">
+                <h4 class="other-information__item-title">Email</h4>
+                <a href="mailto:glenda.canas@gprologistic.com"
+                  ><p
+                    class="other-information__item-text other-information__item--link"
+                  >
+                    glenda.canas@gprologistic.com
+                  </p></a
+                >
+              </li>
+            </ul>
+            <h3 class="other-information__subtitle">Horario de oficina</h3>
+            <ul class="other-information__list">
+              <li class="other-information__item">
+                <h4 class="other-information__item-title">Lunes a Viernes</h4>
+                <p class="other-information__item-text">8:00 AM - 5:00 PM</p>
+              </li>
+              <li class="other-information__item">
+                <h4 class="other-information__item-title">Sábado</h4>
+                <p class="other-information__item-text">8:00 AM - 12:00 PM</p>
+              </li>
+              <li class="other-information__item">
+                <h4 class="other-information__item-title">Domingo</h4>
+                <p class="other-information__item-text">Cerrado</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <!-- Sección de Mapa -->
+        <section class="layout__map">
+          <div class="map__container">
+            <header class="map__header">
+              <h2 class="map__title">Nuestra Ubicación</h2>
+              <p class="map__description">
+                Visítanos en nuestras oficinas para discutir más sobre tus
+                necesidades logísticas.
+              </p>
+            </header>
+
+            <!-- Mapa embebido -->
+            <div class="map__embed">
+              <iframe
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15505.30692460456!2d-89.24440410075505!3d13.698650637000908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633138c9db87f3%3A0xa637a184bd0354c!2sGpro%20Logistic%2C%20SA%20de%20CV!5e0!3m2!1ses-419!2ssv!4v1727635665746!5m2!1ses-419!2ssv"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="layout__footer">
+      <div class="footer__container">
+        <div class="footer__column footer__column--logo">
+          <img
+            src="assets/img/logo2.png"
+            alt="Logo de la empresa"
+            class="footer__logo"
+          />
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Enlaces rápidos</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Sobre nosotros</a></li>
+            <li><a href="index.html#services">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Servicios</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="gestion-aduanal.html">Asesoría y Gestión Aduanal</a>
+            </li>
+            <li><a href="transporte.html">Transporte Terrestre</a></li>
+            <li>
+              <a href="coordinacion-transporte.html"
+                >Coordinación Logística De Carga</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Contacto</h4>
+          <div class="footer__contact-info-flex">
+            <ul class="footer__contact-info">
+              <li class="contact-info__text">
+                <i class="fa-solid fa-location-dot footer__icon"></i>Psj.
+                Carbonel, Col. Roma No. 23, San Salvador
+              </li>
+              <li class="contact-info__text">
+                <a href="tel:+5037794-8250"
+                  ><i class="fa-solid fa-phone footer__icon"></i>+503
+                  7794-8250</a
+                >
+              </li>
+              <li class="contact-info__text">
+                <a href="tel:+5032220-8875"
+                  ><i class="fa-solid fa-phone footer__icon"></i>+503
+                  2220-8875</a
+                >
+              </li>
+              <li class="contact-info__text">
+                <i class="fa-solid fa-envelope footer__icon"></i
+                >glenda.canas@gprologistic.com
+              </li>
+            </ul>
+            <div class="footer__social">
+              <a
+                href="https://wa.me/50377948250"
+                class="social__link-footer social__link--whatsapp"
+                target="_blank"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a
+                href="mailto:glenda.canas@gprologistic.com?subject=Cotización%20o%20dudas%20acerca%20de%20los%20servicios"
+                class="social-mobile__link social__link--gmail"
+                target="_blank"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/g-pro-logistic/"
+                target="_blank"
+                class="social__link-footer social__link--linkedin"
+              >
+                <i class="fa-brands fa-linkedin"> </i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <a href="index.html">
+          <p class="footer-bottom__text">Gpro <span>Logistic</span></p>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
